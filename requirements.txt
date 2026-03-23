@@ -1,0 +1,9 @@
+# livekit-agents 1.5 requires Python 3.10+
+livekit-agents>=1.5.0
+livekit-api>=1.1.0
+livekit-plugins-openai>=1.5.0
+livekit-plugins-deepgram>=1.5.0
+livekit-plugins-silero>=1.5.0
+livekit-plugins-noise-cancellation
+python-dotenv>=1.0.0
+aiohttp>=3.9.0
