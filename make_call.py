@@ -2,7 +2,7 @@
 make_call.py — Dispatch an outbound call to this agent
 =======================================================
 Usage:
-    python make_call.py --to +91XXXXXXXXXX
+    python make_call.py --to +15550003333
 
 Requires .env with LIVEKIT_URL, LIVEKIT_API_KEY, LIVEKIT_API_SECRET
 """
@@ -22,7 +22,7 @@ AGENT_NAME = "webhook-crm-agent"
 
 async def main():
     parser = argparse.ArgumentParser(description=f"Place an outbound call via {AGENT_NAME}")
-    parser.add_argument("--to", required=True, help="E.164 phone number, e.g. +918939894913")
+    parser.add_argument("--to", required=True, help="E.164 phone number, e.g. +15550003333")
     args = parser.parse_args()
 
     phone = args.to.strip()
